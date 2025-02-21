@@ -1,0 +1,103 @@
+.quick-meal-page
+{
+    margin: 100px;
+}
+.quickmeal-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    background: linear-gradient(45deg, #127810, #56bc31);
+    text-align: center;
+  }
+  
+  .quickmeal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .quickmeal-form label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .quickmeal-form input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .meal-type-options {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .meal-type-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .quickmeal-form button {
+    background-color: #ff6600; /* Orange background */
+    color: white; /* White text */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove default border */
+    padding: 12px 24px; /* Padding for better spacing */
+    border-radius: 0; /* Square corners (no rounding) */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.quickmeal-form button:hover {
+    background-color: #e65c00; /* Darker orange on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.quickmeal-form button:active {
+    transform: translateY(0); /* Reset lift effect when clicked */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Reset shadow when clicked */
+}
+.steps-list
+{
+
+    list-style-type: none; /* Removes bullets */
+    padding: 0; /* Optional: Removes default padding */
+    margin: 0; /* Optional: Removes default margin */
+  
+}
+.dish-selection select,
+.quickmeal-form select {
+    width: 100%; /* Ensures the dropdown fits the container */
+    padding: 8px; /* Adds some spacing inside the dropdown */
+    font-size: 14px; /* Adjust font size for better readability */
+    border: 1px solid #ccc; /* Adds a subtle border */
+    border-radius: 5px; /* Rounded corners */
+    background: white; /* Background color */
+    color: black; /* Text color */
+    appearance: none; /* Removes default browser styling */
+    cursor: pointer;
+}
+
+/* Add spacing to dropdown label */
+.dish-selection label,
+.quickmeal-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style dropdown arrow */
+.dish-selection select:focus,
+.quickmeal-form select:focus {
+    border-color: #56bc31;
+    outline: none;
+    box-shadow: 0 0 5px rgba(86, 188, 49, 0.5);
+}

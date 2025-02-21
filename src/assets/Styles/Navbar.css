@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    color: black;
+    padding: 25px 70px;
+    border-bottom: 0.5px lightslategrey solid;
+    background-color: white;
+    position: fixed;
+    margin-bottom: 300px;
+    width: 100%;
+    top: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar.hidden {
+    transform: translateY(-100%);
+}
+
+.logo
+{
+   
+    padding-left: 30px;
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+}
+.Menubar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    gap: 40px;
+}
+.menutbtn
+{
+    font-family: 'Inter', sans-serif;
+    border: none;         /* Remove border */
+    outline: none;        /* Remove focus outline */
+    color: black;
+    background:transparent;
+    text-decoration: none;  /* Remove underline */
+    cursor: pointer;
+    font-size: 18px;
+}
+.socialicons
+{
+    display: flex;
+    gap: 20px;
+    padding-left: 270px;
+}
+.socialbtn
+{
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+}
