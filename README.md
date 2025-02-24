@@ -1,8 +1,5 @@
 
 ---
-
-### 📌 **README.md for Recipe Generator (React + Flask)**
-```md
 # 🍽️ Recipe Generator
 
 ## 📌 Overview
